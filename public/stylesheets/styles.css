@@ -12,6 +12,15 @@ a:visited {
 	color: rgb(110, 110, 110);
 }
 
+a[href="mailto:ted.mahoney22@gmail.com"] {
+	text-decoration: none;
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+}
+
+a[href="mailto:ted.mahoney22@gmail.com"]:visited {
+	color: rgb(110, 110, 110);
+}
+
 a:hover {
 	border-bottom: 3px dotted rgb(110, 110, 110);
 }
