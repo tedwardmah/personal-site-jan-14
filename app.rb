@@ -1,10 +1,10 @@
 require 'bundler'
-Bundler.require
+Bundler.require(:default)
 
 get '/' do 
 	erb :index
 end
 
-get '/*' do 
-  erb :index
-end
+# get '/*' do 
+#   erb :index
+# end
