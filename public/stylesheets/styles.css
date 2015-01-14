@@ -64,16 +64,19 @@ header span {
 }
 
 #intro {
+	display: inline-block;
+	float: left;
 	font-family: "Lucida Sans Typewriter","Lucida Console",monaco,"Bitstream Vera Sans Mono";
 	max-width: 40%;
 	min-width: 30%;
 	padding: 4% 5% 4% 0;
 	margin-left: 10%;
-	margin-right: 10%;
+	/*margin-right: 10%;*/
 	font-size: .9em;
 	text-align: center;
 	cursor: default;
 	border-right: 2px solid black;
+	/*background-color: lightgreen;*/
 }
 
 #intro p {
@@ -87,4 +90,44 @@ header span {
 	letter-spacing: 4px;
 }
 
-.
+#contact-info-container {
+	float: left;
+	display: inline-block;
+	/*font-family: monaco;*/
+	font-family: 'Lucida Sans Typewriter', 'Lucida Console', monaco, 'Bitstream Vera Sans Mono', monospace;
+	/*background-color: lightblue;*/
+	margin: 2% 5% 0 5%;
+	padding: 0;
+}
+
+#contact-info-content {
+	/*background-color: lightgrey;*/
+	min-width: 325px;
+}
+
+#contact-info-content h3 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 3%;
+	text-align: right;
+	border-bottom: 1px solid #e67e22;
+}
+
+#contact-info-content ul {
+	font-size: 90%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-top: 3%;
+	text-align: right;
+}
+
+#contact-info-content li {
+	padding: 2% 0;
+	cursor: default;
+}
+
+
+
+
+
